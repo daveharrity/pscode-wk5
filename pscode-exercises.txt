@@ -1,0 +1,86 @@
+6/13/2023:
+
+To complete this assignment, I used Python commands, as it is the language I will be using in the data science path in Code Louisville.
+
+To begin this assignment, I used Excel commands to create a draft pseudocode. I did this because I am familiar with Excel commands. Then I reviewed each Excel command for a parity command in Python. I used ChatGPT to help create responses to the exercises, and checked my understanding each time I used ChatGPT for help to ensure that I understood the logic of the commands.
+
+I do not pretented to know these commands by heart for a live coding situation, but I do understand the logic of Python and will work to commit the language to memory as I go through Code Louisville.
+
+I then used my knowledge of Git to add, commit, and push the .txt file to my repo
+
+
+// Exercise 1: Calculate the Sum of Two Numbers
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+sum = num1 + num2
+
+print("The sum of", num1, "and", num2, "is:", sum)
+ 
+
+// Exercise 2: Check if a Number is Even or Odd
+
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print(number, "is even.")
+else:
+    print(number, "is odd.")
+
+ 
+
+// Exercise 3: Write pseudo code that will perform the following.    
+
+ 
+
+a) Read in 5 separate numbers.   
+
+numbers = [n1,n2,n3,n4,n5]
+
+for i in range(5):
+    num = float(input("Enter number {}: ".format(i+1)))
+    numbers.append(num) 
+
+print("The numbers you entered are:", numbers)
+
+ 
+
+b) Calculate the average of the five numbers.
+
+numbers = [n1,n2,n3,n4,n5]
+
+for i in range(5):
+    num = float(input("Enter number {}: ".format(i+1)))
+    numbers.append(num)
+
+total_sum = sum(numbers)
+average = total_sum / len(numbers)
+
+print("The average of the numbers is:", average)
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+
+numbers = [n1,n2,n3,n4,n5]
+
+# Loop to read in 5 numbers
+for i in range(5):
+    num = float(input("Enter number {}: ".format(i+1)))
+    numbers.append(num)
+
+smallest = min(numbers)
+largest = max(numbers)
+
+print("The smallest number is:", smallest)
+print("The largest number is:", largest)
+
+ 
+d) Write out the results found from steps b and c with a message describing what they are
+
+Letter b)'s code calculates the sum of five discrete numbers then divides them by five to determine the average (average = sum of numbers / total count of numbers). One must create a list of numbers then use a loop variable (i) to iterate across the sequence of values and add the number to the list. The command then calculates the value and creates the answer ("print").
+
+Letter c)'s code designates a particular number in an iterative series as smallest or largest. The code compares a single number in a series of numbers (n#) to each other number in the series (n#). The codes min(numbers) and max(numbers) define their respective greater or less than integers and call the results ("print")
+
+
+-- END –
